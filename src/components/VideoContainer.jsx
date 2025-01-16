@@ -82,7 +82,7 @@ function VideoContainer({VideoRespState, videoDeleteResp, setUpdateCategResp}) {
   return (
     <div>
       <section>
-        <div className="bg-yellow-600 min-h-dvh" droppable = {true} onDragOver={(e) => preventDragOver(e)} onDrop={(e) => categoryVideoDrop(e)}>
+        <div className="min-h-dvh" droppable = {true} onDragOver={(e) => preventDragOver(e)} onDrop={(e) => categoryVideoDrop(e)}>
           <h1 className='text-4xl font-semibold text-orange-400 text-center'>All Videos</h1>
 
           <Row >
